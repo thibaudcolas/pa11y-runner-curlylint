@@ -1,32 +1,35 @@
 {
-  "name": "pa11y-runner-vnu",
+  "name": "pa11y-runner-curlylint",
   "version": "0.1.0",
-  "description": "Pa11y runner for HTML validation with the Nu Html Checker (v.Nu)",
+  "description": "Pa11y runner for HTML linting with curlylint",
   "author": "Thibaud Colas",
   "license": "MIT",
   "main": "./src/runner.js",
-  "homepage": "https://github.com/thibaudcolas/pa11y-runner-vnu",
+  "files": [
+    "src"
+  ],
+  "homepage": "https://github.com/thibaudcolas/pa11y-runner-curlylint",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thibaudcolas/pa11y-runner-vnu.git"
+    "url": "git+https://github.com/thibaudcolas/pa11y-runner-curlylint.git"
   },
   "bugs": {
-    "url": "https://github.com/thibaudcolas/pa11y-runner-vnu/issues"
+    "url": "https://github.com/thibaudcolas/pa11y-runner-curlylint/issues"
   },
   "keywords": [
     "pa11y",
     "pa11y-runner",
     "accessibility",
     "html validation",
-    "vnu",
-    "validator"
+    "curlylint",
+    "analysis"
   ],
   "devDependencies": {
     "@commitlint/cli": "8.3.5",
     "@commitlint/config-conventional": "8.3.4",
     "@commitlint/travis-cli": "8.3.5",
-    "@thibaudcolas/eslint-plugin-cookbook": "^5.0.1",
-    "eslint": "^7.1.0",
+    "@thibaudcolas/eslint-plugin-cookbook": "6.0.0",
+    "eslint": "7.1.0",
     "pa11y": "git+https://github.com/thibaudcolas/pa11y.git#feature/node-runners",
     "prettier": "2.0.5"
   },
